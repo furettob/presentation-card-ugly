@@ -1,5 +1,5 @@
 import { Component } from "react";
-import data from "../../utils/data.json";
+import data from "../utils/data.json";
 
 class CardContainer extends Component {
   componentDidMount() {

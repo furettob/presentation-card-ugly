@@ -1,12 +1,12 @@
 import "./styles.css";
 import CardContainer from "./components/CardContainer";
 import Card from "./components/Card";
-import data from "../utils/data.json";
+import data from "./utils/data.json";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Let's get to know each other</h1>
+      <h1>Let's get to know each other (ugly version v2)</h1>
       <h2>We can build a card to present ourselves</h2>
       <CardContainer />
       <div className="card-container">
