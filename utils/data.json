@@ -1,0 +1,138 @@
+[
+  {
+    "id": "stefano_spensieri",
+    "name": "Stefano",
+    "lastname": "Spensieri",
+    "avatar": "stefano_avatar.jpeg",
+    "jobPosition": "Frontend developer",
+    "company": "Docsity - Freelance",
+    "description": "I’m a mathematician and a web developer with +10 years experience. I’m a front-end enthusiast, passionate about conveying a great user experience and implementing smart client-side logic. I’m eager to work where aesthetic and logic meet.",
+    "avatarUrl": "/img/stefano_avatar.jpeg",
+    "links": [
+      {
+        "name": "Github",
+        "logo": "fa fa-github",
+        "url": "https://github.com/spensieri-s"
+      },
+      {
+        "name": "Linkedin",
+        "logo": "fa fa-linkedin",
+        "url": "https://www.linkedin.com/in/sspensieri/"
+      },
+      {
+        "name": "Docsity",
+        "logo": "fa fa-globe",
+        "url": "https://www.docsity.com"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Javascript",
+        "level": "4.5"
+      },
+      {
+        "name": "HMTL",
+        "level": "4.3"
+      },
+      {
+        "name": "css",
+        "level": "4.2"
+      },
+      {
+        "name": "English",
+        "level": "4.2"
+      },
+      {
+        "name": "Git",
+        "level": "3.3"
+      },
+      {
+        "name": "React",
+        "level": "4.2"
+      },
+      {
+        "name": "Java",
+        "level": "3.3"
+      },
+      {
+        "name": "PHP",
+        "level": "2.3"
+      }
+    ],
+    "favourites": {
+      "movie": "The Godfather - Part II",
+      "song": "The Rock Show -Blink 182",
+      "book": "I pilastri della terra - Ken Follet",
+      "pizza": "Margherita",
+      "cartoon": "Tartarughe Ninja"
+    }
+  },
+  {
+    "id": "altro_personaggio",
+    "name": "Tizio",
+    "lastname": "Caio",
+    "avatar": "stefano_avatar.jpeg",
+    "jobPosition": "Frontend developer",
+    "company": "Docsity - Freelance",
+    "description": "I’m a mathematician and a web developer with +10 years experience. I’m a front-end enthusiast, passionate about conveying a great user experience and implementing smart client-side logic. I’m eager to work where aesthetic and logic meet.",
+    "avatarUrl": "/img/stefano_avatar.jpeg",
+    "links": [
+      {
+        "name": "Github",
+        "logo": "fa fa-github",
+        "url": "https://github.com/spensieri-s"
+      },
+      {
+        "name": "Linkedin",
+        "logo": "fa fa-linkedin",
+        "url": "https://www.linkedin.com/in/sspensieri/"
+      },
+      {
+        "name": "Docsity",
+        "logo": "fa fa-globe",
+        "url": "https://www.docsity.com"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Javascript",
+        "level": "4.5"
+      },
+      {
+        "name": "HMTL",
+        "level": "4.3"
+      },
+      {
+        "name": "css",
+        "level": "4.2"
+      },
+      {
+        "name": "English",
+        "level": "4.2"
+      },
+      {
+        "name": "Git",
+        "level": "3.3"
+      },
+      {
+        "name": "React",
+        "level": "4.2"
+      },
+      {
+        "name": "Java",
+        "level": "3.3"
+      },
+      {
+        "name": "PHP",
+        "level": "2.3"
+      }
+    ],
+    "favourites": {
+      "movie": "The Godfather - Part II",
+      "song": "The Rock Show -Blink 182",
+      "book": "I pilastri della terra - Ken Follet",
+      "pizza": "Margherita",
+      "cartoon": "Tartarughe Ninja"
+    }
+  }
+]
