@@ -4,8 +4,8 @@ import TagClass from "./TagClass";
 import Area from "./Area";
 
 class Card extends Component {
-  costructor(props) {
-    //super(props)
+  constructor(props) {
+    super(props)
     console.log("Building a card!!");
   }
 
