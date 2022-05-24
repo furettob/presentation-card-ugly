@@ -9,7 +9,7 @@ export default function App() {
       <h1>Let's get to know each other (ugly version v4)</h1>
       <h2>We can build a card to present ourselves</h2>
       <CardContainer />
-      <div className="card-container">
+      <div className="pc-card-container">
         {data.map((elem, index) => {
           return <Card elem={elem} />;
         })}

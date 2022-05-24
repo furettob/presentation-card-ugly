@@ -1,17 +1,70 @@
 .App {
   font-family: sans-serif;
   padding: 16px;
+  background-color: #eee;
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+.pc-mainTitle,
+.pc-mainSubtitle {
   text-align: center;
+  margin: 0.5em auto;
+}
+.pc-card-container {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
 }
 
-.card-container {
-  padding: 24px;
+@media screen and (max-width: 756px) {
+  .pc-card-container {
+    grid-template-columns: 1fr;
+  }
 }
 
-.pc-area {
-  padding: 10px;
+
+
+/* TAG ******************************************** */
+.pc-tag {
+  font-size: 12px;
+  background-color: #cfe9fe;
+  border: 1px solid;
+  border-color: #034d86;
+  color: #034d86;
+  border-radius: 100px;
+  margin: 0 8px 8px 0;
+  padding: 4px 8px;
+  white-space: nowrap;
+  display: inline-block;
+}
+.pc-tag--big {
+  font-size: 16px;
+  padding: 6px 10px;
+}
+.pc-tag--selected {
+  font-weight: bold;
+}
+.pc-tag--warning {
+  background-color: #fff4cc;
+  color: #b87d00;
+  border-color: #e9a001;
+}
+.pc-tag--success {
+  background-color: #ccfadd;
+  color: #0a6a36;
+  border-color: #0a6a36;
+}
+.pc-tag--disabled {
+  background-color: #f7f8fa;
+  color: #5d6974;
+  border-color: #5d6974;
+}
+.pc-tag--underline {
+  text-decoration: underline;
 }
