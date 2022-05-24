@@ -1,6 +1,7 @@
 import { Component } from "react";
 
 import TagClass from "./TagClass";
+import TagSkill from "./TagSkill";
 import Area from "./Area";
 
 class Card extends Component {
@@ -30,15 +31,15 @@ class Card extends Component {
         </Area>
 
         <Area title="Skills">
-          <ul>
             {this.props.elem.skills.map((skill, index) => {
+                console.log('skill' , skill);
               return (
-                <li key={skill.name + "_" + index}>
-                  <i>{skill.name}</i> ({skill.level} / 5),{" "}
-                </li>
+                  <TagSkill key={index}
+                            name={skill.name}
+                            level={skill.level}
+                  />
               );
             })}
-          </ul>
         </Area>
 
 
