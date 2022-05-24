@@ -20,4 +20,4 @@ export default function App() {
 
 for (var index in data) {
   console.log(data[index]);
-}
+} 
