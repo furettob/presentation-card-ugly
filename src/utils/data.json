@@ -73,24 +73,34 @@
     }
   },
   {
-    "id": "Alessandro Baruzzi",
-    "name": "Alessandro",
-    "lastname": "Baruzzi",
-    "avatar": "empty_avatar.jpeg",
-    "jobPosition": "Programmatore",
-    "company": "Netsurf",
-    "description": "I am a father and a a husband, a guitar player and composer, a trailbuilder, a knifemaker, a woodworker and a lumberjack... oh, and I happen to write code for a living as well.",
+    "id": "fabiana_vineis",
+    "name": "Dummy",
+    "lastname": "Test",
+    "avatar": "blank_avatar.png",
+    "jobPosition": "Your Position",
+    "company": "Your Company",
+    "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
     "links": [
       {
-        "name": "Sentieri dei Cinghiali",
+        "name": "Github",
         "logo": "fa-github",
-        "url": "https://sentierideicinghiali.it"
+        "url": "https://github.com/spensieri-s"
+      },
+      {
+        "name": "Linkedin",
+        "logo": "fa-linkedin",
+        "url": "https://www.linkedin.com/in/sspensieri/"
+      },
+      {
+        "name": "Docsity",
+        "logo": "fa-globe",
+        "url": "https://www.docsity.com"
       }
     ],
     "skills": [
       {
         "name": "Javascript",
-        "level": "4"
+        "level": "5"
       },
       {
         "name": "HMTL",
@@ -102,7 +112,7 @@
       },
       {
         "name": "English",
-        "level": "5"
+        "level": "3"
       },
       {
         "name": "Git",
@@ -118,12 +128,332 @@
       },
       {
         "name": "PHP",
-        "level": "4"
+        "level": "1"
       }
     ],
     "favourites": {
-      "Animation Movie": { "name": "Up", "icon": "fa-movie" },
-      "Book": { "name": "Game of Thrones", "icon": "fa-note" }
+      "movie": { "name": "The Godfather - Part II", "icon": "fa-movie" },
+      "something": { "name": "something nice", "icon": "fa-note" }
+    }
+  },
+  {
+    "id": "manuel_gianetto",
+    "name": "Dummy",
+    "lastname": "Test",
+    "avatar": "blank_avatar.png",
+    "jobPosition": "Your Position",
+    "company": "Your Company",
+    "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
+    "links": [
+      {
+        "name": "Github",
+        "logo": "fa-github",
+        "url": "https://github.com/spensieri-s"
+      },
+      {
+        "name": "Linkedin",
+        "logo": "fa-linkedin",
+        "url": "https://www.linkedin.com/in/sspensieri/"
+      },
+      {
+        "name": "Docsity",
+        "logo": "fa-globe",
+        "url": "https://www.docsity.com"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Javascript",
+        "level": "5"
+      },
+      {
+        "name": "HMTL",
+        "level": "4"
+      },
+      {
+        "name": "css",
+        "level": "3.5"
+      },
+      {
+        "name": "English",
+        "level": "3"
+      },
+      {
+        "name": "Git",
+        "level": "2"
+      },
+      {
+        "name": "React",
+        "level": "1"
+      },
+      {
+        "name": "Java",
+        "level": "1"
+      },
+      {
+        "name": "PHP",
+        "level": "1"
+      }
+    ],
+    "favourites": {
+      "movie": { "name": "The Godfather - Part II", "icon": "fa-movie" },
+      "something": { "name": "something nice", "icon": "fa-note" }
+    }
+  },
+  {
+    "id": "marco_gaddo",
+    "name": "Dummy",
+    "lastname": "Test",
+    "avatar": "blank_avatar.png",
+    "jobPosition": "Your Position",
+    "company": "Your Company",
+    "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
+    "links": [
+      {
+        "name": "Github",
+        "logo": "fa-github",
+        "url": "https://github.com/spensieri-s"
+      },
+      {
+        "name": "Linkedin",
+        "logo": "fa-linkedin",
+        "url": "https://www.linkedin.com/in/sspensieri/"
+      },
+      {
+        "name": "Docsity",
+        "logo": "fa-globe",
+        "url": "https://www.docsity.com"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Javascript",
+        "level": "5"
+      },
+      {
+        "name": "HMTL",
+        "level": "4"
+      },
+      {
+        "name": "css",
+        "level": "3.5"
+      },
+      {
+        "name": "English",
+        "level": "3"
+      },
+      {
+        "name": "Git",
+        "level": "2"
+      },
+      {
+        "name": "React",
+        "level": "1"
+      },
+      {
+        "name": "Java",
+        "level": "1"
+      },
+      {
+        "name": "PHP",
+        "level": "1"
+      }
+    ],
+    "favourites": {
+      "movie": { "name": "The Godfather - Part II", "icon": "fa-movie" },
+      "something": { "name": "something nice", "icon": "fa-note" }
+    }
+  },
+  {
+    "id": "maria_bugniduch",
+    "name": "Dummy",
+    "lastname": "Test",
+    "avatar": "blank_avatar.png",
+    "jobPosition": "Your Position",
+    "company": "Your Company",
+    "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
+    "links": [
+      {
+        "name": "Github",
+        "logo": "fa-github",
+        "url": "https://github.com/spensieri-s"
+      },
+      {
+        "name": "Linkedin",
+        "logo": "fa-linkedin",
+        "url": "https://www.linkedin.com/in/sspensieri/"
+      },
+      {
+        "name": "Docsity",
+        "logo": "fa-globe",
+        "url": "https://www.docsity.com"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Javascript",
+        "level": "5"
+      },
+      {
+        "name": "HMTL",
+        "level": "4"
+      },
+      {
+        "name": "css",
+        "level": "3.5"
+      },
+      {
+        "name": "English",
+        "level": "3"
+      },
+      {
+        "name": "Git",
+        "level": "2"
+      },
+      {
+        "name": "React",
+        "level": "1"
+      },
+      {
+        "name": "Java",
+        "level": "1"
+      },
+      {
+        "name": "PHP",
+        "level": "1"
+      }
+    ],
+    "favourites": {
+      "movie": { "name": "The Godfather - Part II", "icon": "fa-movie" },
+      "something": { "name": "something nice", "icon": "fa-note" }
+    }
+  },
+  {
+    "id": "andrea_besso",
+    "name": "Dummy",
+    "lastname": "Test",
+    "avatar": "blank_avatar.png",
+    "jobPosition": "Your Position",
+    "company": "Your Company",
+    "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
+    "links": [
+      {
+        "name": "Github",
+        "logo": "fa-github",
+        "url": "https://github.com/spensieri-s"
+      },
+      {
+        "name": "Linkedin",
+        "logo": "fa-linkedin",
+        "url": "https://www.linkedin.com/in/sspensieri/"
+      },
+      {
+        "name": "Docsity",
+        "logo": "fa-globe",
+        "url": "https://www.docsity.com"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Javascript",
+        "level": "5"
+      },
+      {
+        "name": "HMTL",
+        "level": "4"
+      },
+      {
+        "name": "css",
+        "level": "3.5"
+      },
+      {
+        "name": "English",
+        "level": "3"
+      },
+      {
+        "name": "Git",
+        "level": "2"
+      },
+      {
+        "name": "React",
+        "level": "1"
+      },
+      {
+        "name": "Java",
+        "level": "1"
+      },
+      {
+        "name": "PHP",
+        "level": "1"
+      }
+    ],
+    "favourites": {
+      "movie": { "name": "The Godfather - Part II", "icon": "fa-movie" },
+      "something": { "name": "something nice", "icon": "fa-note" }
+    }
+  },
+  {
+    "id": "alessandro_baruzzi",
+    "name": "Dummy",
+    "lastname": "Test",
+    "avatar": "blank_avatar.png",
+    "jobPosition": "Your Position",
+    "company": "Your Company",
+    "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
+    "links": [
+      {
+        "name": "Github",
+        "logo": "fa-github",
+        "url": "https://github.com/spensieri-s"
+      },
+      {
+        "name": "Linkedin",
+        "logo": "fa-linkedin",
+        "url": "https://www.linkedin.com/in/sspensieri/"
+      },
+      {
+        "name": "Docsity",
+        "logo": "fa-globe",
+        "url": "https://www.docsity.com"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Javascript",
+        "level": "5"
+      },
+      {
+        "name": "HMTL",
+        "level": "4"
+      },
+      {
+        "name": "css",
+        "level": "3.5"
+      },
+      {
+        "name": "English",
+        "level": "3"
+      },
+      {
+        "name": "Git",
+        "level": "2"
+      },
+      {
+        "name": "React",
+        "level": "1"
+      },
+      {
+        "name": "Java",
+        "level": "1"
+      },
+      {
+        "name": "PHP",
+        "level": "1"
+      }
+    ],
+    "favourites": {
+      "movie": { "name": "The Godfather - Part II", "icon": "fa-movie" },
+      "something": { "name": "something nice", "icon": "fa-note" }
     }
   }
 ]
