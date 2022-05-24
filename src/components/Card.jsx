@@ -1,4 +1,6 @@
 import { Component } from "react";
+
+import TagClass from "./TagClass";
 import Area from "./Area";
 
 class Card extends Component {
@@ -39,17 +41,19 @@ class Card extends Component {
           </ul>
         </Area>
 
+
         <Area title="Favourites">
-          <ul>
+         
             {Object.keys(this.props.elem.favourites).map((favName, index) => {
+              console.log('favName' , favName);
               return (
-                <li key={favName + "_" + index}>
-                  My favourite {favName} is{" "}
-                  {this.props.elem.favourites[favName]}
-                </li>
+                <TagClass key={index}
+                  name={this.props.elem.favourites[favName].name}
+                  icon={this.props.elem.favourites[favName].icon}
+                />
               );
             })}
-          </ul>
+         
         </Area>
 
         <Area title="Links">
