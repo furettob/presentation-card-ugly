@@ -7,7 +7,6 @@
     "jobPosition": "Frontend developer",
     "company": "Docsity - Freelance",
     "description": "I’m a mathematician and a web developer with +10 years experience. I’m a front-end enthusiast, passionate about conveying a great user experience and implementing smart client-side logic. I’m eager to work where aesthetic and logic meet.",
-    "avatarUrl": "/img/stefano_avatar.jpeg",
     "links": [
       {
         "name": "Github",
@@ -60,79 +59,71 @@
       }
     ],
     "favourites": {
-      "movie": "The Godfather - Part II",
-      "song": "The Rock Show -Blink 182",
-      "book": "I pilastri della terra - Ken Follet",
-      "pizza": "Margherita",
-      "cartoon": "Tartarughe Ninja"
+      "movie": { "name": "The Godfather - Part II", "icon": "fa-film" },
+      "song": { "name": "The Rock Show -Blink 182", "icon": "fa-music" },
+      "book": {
+        "name": "I pilastri della terra - Ken Follet",
+        "icon": "fa-book"
+      },
+      "pizza": { "name": "Margherita", "icon": "fa-pizza-slice" },
+      "cartoon": {
+        "name": "Tartarughe Ninja",
+        "icon": "fa-comment-dots"
+      }
     }
   },
   {
-    "id": "altro_personaggio",
-    "name": "Tizio",
-    "lastname": "Caio",
-    "avatar": "stefano_avatar.jpeg",
-    "jobPosition": "Frontend developer",
-    "company": "Docsity - Freelance",
-    "description": "I’m a mathematician and a web developer with +10 years experience. I’m a front-end enthusiast, passionate about conveying a great user experience and implementing smart client-side logic. I’m eager to work where aesthetic and logic meet.",
-    "avatarUrl": "/img/stefano_avatar.jpeg",
+    "id": "Alessandro Baruzzi",
+    "name": "Alessandro",
+    "lastname": "Baruzzi",
+    "avatar": "empty_avatar.jpeg",
+    "jobPosition": "Programmatore",
+    "company": "Netsurf",
+    "description": "I am a father and a a husband, a guitar player and composer, a trailbuilder, a knifemaker, a woodworker and a lumberjack... oh, and I happen to write code for a living as well.",
     "links": [
       {
-        "name": "Github",
-        "logo": "fa fa-github",
-        "url": "https://github.com/spensieri-s"
-      },
-      {
-        "name": "Linkedin",
-        "logo": "fa fa-linkedin",
-        "url": "https://www.linkedin.com/in/sspensieri/"
-      },
-      {
-        "name": "Docsity",
-        "logo": "fa fa-globe",
-        "url": "https://www.docsity.com"
+        "name": "Sentieri dei Cinghiali",
+        "logo": "fa-github",
+        "url": "https://sentierideicinghiali.it"
       }
     ],
     "skills": [
       {
         "name": "Javascript",
-        "level": "4.5"
+        "level": "4"
       },
       {
         "name": "HMTL",
-        "level": "4.3"
+        "level": "4"
       },
       {
         "name": "css",
-        "level": "4.2"
+        "level": "3.5"
       },
       {
         "name": "English",
-        "level": "4.2"
+        "level": "5"
       },
       {
         "name": "Git",
-        "level": "3.3"
+        "level": "2"
       },
       {
         "name": "React",
-        "level": "4.2"
+        "level": "1"
       },
       {
         "name": "Java",
-        "level": "3.3"
+        "level": "1"
       },
       {
         "name": "PHP",
-        "level": "2.3"
+        "level": "4"
       }
     ],
     "favourites": {
-      "movie": "The Godfather - Part II",
-      "song": "The Rock Show -Blink 182",
-      "book": "I pilastri della terra - Ken Follet",
-      "pizza": "Margherita",
-      "cartoon": "Tartarughe Ninja"
+      "Animation Movie": { "name": "Up", "icon": "fa-movie" },
+      "Book": { "name": "Game of Thrones", "icon": "fa-note" }
     }
   }
 ]
