@@ -5,7 +5,7 @@ class TagSkill extends Component {
         return (
             <div className={"pc-skill"}>
                 <span>{this.props.name}&nbsp;</span>
-                <span className={this.props.level > 3 ? "pc-skill__level pc-skill__level--green" : "pc-skill__level"}>
+                <span className={"pc-skill__level"}>
                   <i className={"far fa-star"}/> {this.props.level}
                 </span>
             </div>

@@ -3,9 +3,7 @@ import { Component } from "react";
 class Area extends Component {
   render() {
     if (!this.props.title) {
-      console.error("No  in area!!!");
-    } else {
-      console.log("Title is ", this.props.title)
+      console.warn("No title in area!!!");
     }
     return (
       <div className="pc-area">

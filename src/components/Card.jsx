@@ -10,29 +10,45 @@ import Grid from "./Grid";
 class Card extends Component {
   constructor(props) {
     super(props)
-    console.log("Building a card!!");
+  }
+
+  getEmph = () => {
+      var isEmph = false;
+
+      for (let i in this.props.elem.skills) {
+            if (this.props.elem.skills[i].name === this.props.selectedSkill) {
+                isEmph = true
+            }
+      }
+
+      return isEmph
   }
 
   render() {
     return (
       <div className={"pc-card"}>
-
+          {/* AAAAAAA */}
           <Header
               name={this.props.elem.name}
               lastname={this.props.elem.lastname}
               avatar={this.props.elem.avatar}
               jobPosition={this.props.elem.jobPosition}
               company={this.props.elem.company}
+              isEmph={this.getEmph()}
           />
+
+          <Area title="About">
+              {this.props.elem.description}
+          </Area>
 
         <Area title="Skills">
             <Grid>
                 {this.props.elem.skills.map((skill, index) => {
-                    console.log('skill' , skill);
                   return (
                       <TagSkill key={index}
                                 name={skill.name}
                                 level={skill.level}
+                                selected={null /* AAAAAAA */}
                       />
                   );
                 })}
@@ -43,7 +59,6 @@ class Card extends Component {
         <Area title="Favourites">
          
             {Object.keys(this.props.elem.favourites).map((favName, index) => {
-              console.log('favName' , favName);
               return (
                 <TagClass key={index}
                   name={this.props.elem.favourites[favName].name}
