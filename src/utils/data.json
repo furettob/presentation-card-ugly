@@ -260,6 +260,7 @@
     "jobPosition": "Backend developer",
     "company": "Net Surfing srl",
     "description": "???",
+    "email": "maria.bugniduch@netsurf.it",
     "links": [
       {
         "name": "Github",
@@ -339,6 +340,7 @@
     "name": "Andrea",
     "lastname": "Besso",
     "avatar": "empty_avatar.jpeg",
+    "email": "andrea.besso@netsurf.it",
     "jobPosition": "Junior Developer",
     "company": "NetSurf",
     "description": "Mi piace dipingere acquerelli e andare in biciletta. Ho iniziato a programmare da un annetto in php e ho iniziato ora a usare React",
