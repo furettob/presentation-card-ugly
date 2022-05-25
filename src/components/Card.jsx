@@ -26,8 +26,8 @@ class Card extends Component {
 
   render() {
     return (
-      <div className={"pc-card"}>
-          {/* AAAAAAA */}
+      <div className={"pc-card" + (this.getEmph() ? " pc-card--skill_emp" : " ")}
+      >
           <Header
               name={this.props.elem.name}
               lastname={this.props.elem.lastname}
@@ -48,7 +48,7 @@ class Card extends Component {
                       <TagSkill key={index}
                                 name={skill.name}
                                 level={skill.level}
-                                selected={null /* AAAAAAA */}
+                                selected={skill.name === this.props.selectedSkill  }
                       />
                   );
                 })}
