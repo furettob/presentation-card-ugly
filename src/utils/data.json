@@ -393,34 +393,24 @@
     }
   },
   {
-    "id": "alessandro_baruzzi",
-    "name": "Dummy",
-    "lastname": "Test",
+    "id": "Alessandro Baruzzi",
+    "name": "Alessandro",
+    "lastname": "Baruzzi",
     "avatar": "empty_avatar.jpeg",
-    "jobPosition": "Your Position",
-    "company": "Your Company",
-    "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
+    "jobPosition": "Programmatore",
+    "company": "Netsurf",
+    "description": "I am a father and a a husband, a guitar player and composer, a trailbuilder, a knifemaker, a woodworker and a lumberjack... oh, and I happen to write code for a living as well.",
     "links": [
       {
-        "name": "Github",
-        "logo": "fa-brands fa-github",
-        "url": "https://github.com/spensieri-s"
-      },
-      {
-        "name": "Linkedin",
-        "logo": "fa-brands fa-linkedin-in",
-        "url": "https://www.linkedin.com/in/sspensieri/"
-      },
-      {
-        "name": "Docsity",
-        "logo": "fa-globe",
-        "url": "https://www.docsity.com"
+        "name": "Sentieri dei Cinghiali",
+        "logo": "fa-github",
+        "url": "https://sentierideicinghiali.it"
       }
     ],
     "skills": [
       {
         "name": "Javascript",
-        "level": "5"
+        "level": "4"
       },
       {
         "name": "HMTL",
@@ -432,7 +422,7 @@
       },
       {
         "name": "English",
-        "level": "3"
+        "level": "5"
       },
       {
         "name": "Git",
@@ -448,12 +438,12 @@
       },
       {
         "name": "PHP",
-        "level": "1"
+        "level": "4"
       }
     ],
     "favourites": {
-      "movie": { "name": "The Godfather - Part II", "icon": "fa-movie" },
-      "something": { "name": "something nice", "icon": "fa-note" }
+      "Animation Movie": { "name": "Up", "icon": "fa-movie" },
+      "Book": { "name": "Game of Thrones", "icon": "fa-book" }
     }
   }
 ]
