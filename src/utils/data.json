@@ -133,33 +133,28 @@
   },
   {
     "id": "manuel_gianetto",
-    "name": "Dummy",
-    "lastname": "Test",
+    "name": "Manuel",
+    "lastname": "Gianetto",
     "avatar": "empty_avatar.jpeg",
-    "jobPosition": "Your Position",
-    "company": "Your Company",
-    "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
+    "jobPosition": "Web System Developer",
+    "company": "Netsurf",
+    "description": "I am a biomedical engineer and I have been dealing with php programming for 5 years",
     "links": [
-      {
-        "name": "Github",
-        "logo": "fa-brands fa-github",
-        "url": "https://github.com/spensieri-s"
-      },
       {
         "name": "Linkedin",
         "logo": "fa-brands fa-linkedin-in",
-        "url": "https://www.linkedin.com/in/sspensieri/"
+        "url": "https://www.linkedin.com/in/manuel-gianetto-392b72113/"
       },
       {
-        "name": "Docsity",
+        "name": "Netsurf",
         "logo": "fa-globe",
-        "url": "https://www.docsity.com"
+        "url": "https://www.netsurf.it/"
       }
     ],
     "skills": [
       {
         "name": "Javascript",
-        "level": "5"
+        "level": "4"
       },
       {
         "name": "HMTL",
@@ -167,32 +162,33 @@
       },
       {
         "name": "css",
-        "level": "3.5"
-      },
-      {
-        "name": "English",
         "level": "3"
       },
       {
+        "name": "English",
+        "level": "4"
+      },
+      {
         "name": "Git",
-        "level": "2"
+        "level": "3"
       },
       {
         "name": "React",
-        "level": "1"
+        "level": "2"
       },
       {
-        "name": "Java",
-        "level": "1"
+        "name": "PHP-Symfony",
+        "level": "4"
       },
       {
         "name": "PHP",
-        "level": "1"
+        "level": "4"
       }
     ],
     "favourites": {
-      "movie": { "name": "The Godfather - Part II", "icon": "fa-movie" },
-      "something": { "name": "something nice", "icon": "fa-note" }
+      "animals": {"name":"dogs","icon": "fa-dog"},
+      "pizza": { "name": "Pizza", "icon": "fa-pizza-slice" },
+      "tv-series":{"name":"X-Files", "icon": "fa-television"}
     }
   },
   {
