@@ -3,6 +3,9 @@ import { Component } from "react";
 import TagClass from "./TagClass";
 import TagSkill from "./TagSkill";
 import Area from "./Area";
+import Header from "./Header";
+import Link from "./Link";
+import Grid from "./Grid";
 
 class Card extends Component {
   constructor(props) {
@@ -12,34 +15,28 @@ class Card extends Component {
 
   render() {
     return (
-      <div key={this.props.elem.id}>
-        <Area>
-          <div>
-            <img
-              src={"./img/" + this.props.elem.avatar}
-              width="60px"
-              alt={this.props.elem.name}
-            />
-            <h3>
-              {this.props.elem.name} {this.props.elem.lastname}
-            </h3>
-          </div>
-          <div>
-            {this.props.elem.jobPosition} @ {this.props.elem.company}
-          </div>
-          <div>{this.props.elem.description}</div>
-        </Area>
+      <div className={"pc-card"}>
+
+          <Header
+              name={this.props.elem.name}
+              lastname={this.props.elem.lastname}
+              avatar={this.props.elem.avatar}
+              jobPosition={this.props.elem.jobPosition}
+              company={this.props.elem.company}
+          />
 
         <Area title="Skills">
-            {this.props.elem.skills.map((skill, index) => {
-                console.log('skill' , skill);
-              return (
-                  <TagSkill key={index}
-                            name={skill.name}
-                            level={skill.level}
-                  />
-              );
-            })}
+            <Grid>
+                {this.props.elem.skills.map((skill, index) => {
+                    console.log('skill' , skill);
+                  return (
+                      <TagSkill key={index}
+                                name={skill.name}
+                                level={skill.level}
+                      />
+                  );
+                })}
+            </Grid>
         </Area>
 
 
@@ -58,15 +55,9 @@ class Card extends Component {
         </Area>
 
         <Area title="Links">
-          <div>
             {this.props.elem.links.map((link, index) => {
-              return (
-                <span key={link.name + "_" + index}>
-                  <a href={link.url}>{link.name}</a>{" "}
-                </span>
-              );
+                return <Link key={link.name + "_" + index} link={link} />;
             })}
-          </div>
         </Area>
       </div>
     );
