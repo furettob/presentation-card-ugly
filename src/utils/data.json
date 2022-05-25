@@ -10,12 +10,12 @@
     "links": [
       {
         "name": "Github",
-        "logo": "fa fa-github",
+        "logo": "fa fa-brands fa-github",
         "url": "https://github.com/spensieri-s"
       },
       {
         "name": "Linkedin",
-        "logo": "fa fa-linkedin",
+        "logo": "fa fa-brands fa-linkedin-in",
         "url": "https://www.linkedin.com/in/sspensieri/"
       },
       {
@@ -76,19 +76,19 @@
     "id": "fabiana_vineis",
     "name": "Dummy",
     "lastname": "Test",
-    "avatar": "blank_avatar.png",
+    "avatar": "empty_avatar.jpeg",
     "jobPosition": "Your Position",
     "company": "Your Company",
     "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
     "links": [
       {
         "name": "Github",
-        "logo": "fa-github",
+        "logo": "fa-brands fa-github",
         "url": "https://github.com/spensieri-s"
       },
       {
         "name": "Linkedin",
-        "logo": "fa-linkedin",
+        "logo": "fa-brands fa-linkedin-in",
         "url": "https://www.linkedin.com/in/sspensieri/"
       },
       {
@@ -140,19 +140,19 @@
     "id": "manuel_gianetto",
     "name": "Dummy",
     "lastname": "Test",
-    "avatar": "blank_avatar.png",
+    "avatar": "empty_avatar.jpeg",
     "jobPosition": "Your Position",
     "company": "Your Company",
     "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
     "links": [
       {
         "name": "Github",
-        "logo": "fa-github",
+        "logo": "fa-brands fa-github",
         "url": "https://github.com/spensieri-s"
       },
       {
         "name": "Linkedin",
-        "logo": "fa-linkedin",
+        "logo": "fa-brands fa-linkedin-in",
         "url": "https://www.linkedin.com/in/sspensieri/"
       },
       {
@@ -204,19 +204,19 @@
     "id": "marco_gaddo",
     "name": "Dummy",
     "lastname": "Test",
-    "avatar": "blank_avatar.png",
+    "avatar": "empty_avatar.jpeg",
     "jobPosition": "Your Position",
     "company": "Your Company",
     "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
     "links": [
       {
         "name": "Github",
-        "logo": "fa-github",
+        "logo": "fa-brands fa-github",
         "url": "https://github.com/spensieri-s"
       },
       {
         "name": "Linkedin",
-        "logo": "fa-linkedin",
+        "logo": "fa-brands fa-linkedin-in",
         "url": "https://www.linkedin.com/in/sspensieri/"
       },
       {
@@ -268,19 +268,19 @@
     "id": "maria_bugniduch",
     "name": "Dummy",
     "lastname": "Test",
-    "avatar": "blank_avatar.png",
+    "avatar": "empty_avatar.jpeg",
     "jobPosition": "Your Position",
     "company": "Your Company",
     "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
     "links": [
       {
         "name": "Github",
-        "logo": "fa-github",
+        "logo": "fa-brands fa-github",
         "url": "https://github.com/spensieri-s"
       },
       {
         "name": "Linkedin",
-        "logo": "fa-linkedin",
+        "logo": "fa-brands fa-linkedin-in",
         "url": "https://www.linkedin.com/in/sspensieri/"
       },
       {
@@ -332,19 +332,19 @@
     "id": "andrea_besso",
     "name": "Dummy",
     "lastname": "Test",
-    "avatar": "blank_avatar.png",
+    "avatar": "empty_avatar.jpeg",
     "jobPosition": "Your Position",
     "company": "Your Company",
     "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
     "links": [
       {
         "name": "Github",
-        "logo": "fa-github",
+        "logo": "fa-brands fa-github",
         "url": "https://github.com/spensieri-s"
       },
       {
         "name": "Linkedin",
-        "logo": "fa-linkedin",
+        "logo": "fa-brands fa-linkedin-in",
         "url": "https://www.linkedin.com/in/sspensieri/"
       },
       {
@@ -396,19 +396,19 @@
     "id": "alessandro_baruzzi",
     "name": "Dummy",
     "lastname": "Test",
-    "avatar": "blank_avatar.png",
+    "avatar": "empty_avatar.jpeg",
     "jobPosition": "Your Position",
     "company": "Your Company",
     "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
     "links": [
       {
         "name": "Github",
-        "logo": "fa-github",
+        "logo": "fa-brands fa-github",
         "url": "https://github.com/spensieri-s"
       },
       {
         "name": "Linkedin",
-        "logo": "fa-linkedin",
+        "logo": "fa-brands fa-linkedin-in",
         "url": "https://www.linkedin.com/in/sspensieri/"
       },
       {

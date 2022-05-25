@@ -9,7 +9,7 @@ class Area extends Component {
     }
     return (
       <div className="pc-area">
-        <h3>{this.props.title}</h3>
+        <h3 className={"pc-area__title"}>{this.props.title}</h3>
         {this.props.children}
       </div>
     );
