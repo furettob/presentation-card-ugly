@@ -6,3 +6,5 @@ public/.DS_Store
 # NodeModules
 node_modules/
 yarn.lock
+
+package.json
