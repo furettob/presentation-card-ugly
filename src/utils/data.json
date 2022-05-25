@@ -259,12 +259,12 @@
   },
   {
     "id": "maria_bugniduch",
-    "name": "Dummy",
-    "lastname": "Test",
+    "name": "Maria",
+    "lastname": "Bugni Duch",
     "avatar": "empty_avatar.jpeg",
-    "jobPosition": "Your Position",
-    "company": "Your Company",
-    "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
+    "jobPosition": "Backend developer",
+    "company": "Net Surfing srl",
+    "description": "???",
     "links": [
       {
         "name": "Github",
@@ -284,16 +284,28 @@
     ],
     "skills": [
       {
-        "name": "Javascript",
-        "level": "5"
+        "name": "T-sql",
+        "level": "4.5"
       },
       {
-        "name": "HMTL",
+        "name": "PL-sql",
         "level": "4"
       },
       {
+        "name": "Java",
+        "level": "3,5"
+      },
+      {
+        "name": "Javascript",
+        "level": "3"
+      },
+      {
+        "name": "HMTL",
+        "level": "3"
+      },
+      {
         "name": "css",
-        "level": "3.5"
+        "level": "1"
       },
       {
         "name": "English",
@@ -308,17 +320,23 @@
         "level": "1"
       },
       {
-        "name": "Java",
-        "level": "1"
-      },
-      {
         "name": "PHP",
-        "level": "1"
+        "level": "2"
       }
+     
     ],
     "favourites": {
-      "movie": { "name": "The Godfather - Part II", "icon": "fa-movie" },
-      "something": { "name": "something nice", "icon": "fa-note" }
+      "game": { "name": "The longest journey", "icon": "fa-gamepad" },
+      "song": { "name": "Boys don't cry - The Cure", "icon": "fa-music" },
+      "book": {
+        "name": "Harry Potter",
+        "icon": "fa-book"
+      },
+      "pizza": { "name": "Patatine", "icon": "fa-pizza-slice" },
+      "cartoon": {
+        "name": "Sailor Moon",
+        "icon": "fa-comment-dots"
+      }
     }
   },
   {
