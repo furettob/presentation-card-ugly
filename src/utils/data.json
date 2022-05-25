@@ -196,6 +196,7 @@
     "name": "Marco",
     "lastname": "Gaddò",
     "avatar": "empty_avatar.jpeg",
+    "email": "marco.gaddo@netsurf.it",
     "jobPosition": "Developer",
     "company": "Netsurf",
     "description": "Sono uno sviluppatore con oltre 10 anni di esperienza. Per più di 10 anni ho sviluppato strutture monolitiche in Java e JavaScript, per poi passare alle REST API in Java e client in AngularJs e Angular 8. Ultimamente sviluppo prevalentemente in PHP ma spesso mi capita di fare qualche piccolo lavoro anche in C, C++, python, Java.",
