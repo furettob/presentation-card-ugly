@@ -74,33 +74,28 @@
   },
   {
     "id": "fabiana_vineis",
-    "name": "Dummy",
-    "lastname": "Test",
+    "name": "Fabiana",
+    "lastname": "Vineis",
     "avatar": "empty_avatar.jpeg",
     "jobPosition": "Your Position",
-    "company": "Your Company",
-    "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
+    "company": "Netsurf",
+    "description": "Lavoro in Netsurf da più di 10 anni e mi piace affrontare nuove sfide in ambiente lavorativo.",
     "links": [
       {
         "name": "Github",
         "logo": "fa-brands fa-github",
-        "url": "https://github.com/spensieri-s"
+        "url": ""
       },
       {
-        "name": "Linkedin",
-        "logo": "fa-brands fa-linkedin-in",
-        "url": "https://www.linkedin.com/in/sspensieri/"
-      },
-      {
-        "name": "Docsity",
+        "name": "Netsurf",
         "logo": "fa-globe",
-        "url": "https://www.docsity.com"
+        "url": "https://www.netsurf.it"
       }
     ],
     "skills": [
       {
         "name": "Javascript",
-        "level": "5"
+        "level": "3"
       },
       {
         "name": "HMTL",
@@ -112,11 +107,11 @@
       },
       {
         "name": "English",
-        "level": "3"
+        "level": "2"
       },
       {
         "name": "Git",
-        "level": "2"
+        "level": "1"
       },
       {
         "name": "React",
@@ -128,12 +123,12 @@
       },
       {
         "name": "PHP",
-        "level": "1"
+        "level": "4"
       }
     ],
     "favourites": {
-      "movie": { "name": "The Godfather - Part II", "icon": "fa-movie" },
-      "something": { "name": "something nice", "icon": "fa-note" }
+      "movie": { "name": "*****", "icon": "fa-movie" },
+      "pizza": { "name": "Prosciutto e olive", "icon": "fa-pizza-slice" }
     }
   },
   {
