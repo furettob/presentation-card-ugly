@@ -197,12 +197,12 @@
   },
   {
     "id": "marco_gaddo",
-    "name": "Dummy",
-    "lastname": "Test",
+    "name": "Marco",
+    "lastname": "Gaddò",
     "avatar": "empty_avatar.jpeg",
-    "jobPosition": "Your Position",
-    "company": "Your Company",
-    "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
+    "jobPosition": "Developer",
+    "company": "Netsurf",
+    "description": "Sono uno sviluppatore con oltre 10 anni di esperienza. Per più di 10 anni ho sviluppato strutture monolitiche in Java e JavaScript, per poi passare alle REST API in Java e client in AngularJs e Angular 8. Ultimamente sviluppo prevalentemente in PHP ma spesso mi capita di fare qualche piccolo lavoro anche in C, C++, python, Java.",
     "links": [
       {
         "name": "Github",
@@ -210,36 +210,31 @@
         "url": "https://github.com/spensieri-s"
       },
       {
-        "name": "Linkedin",
-        "logo": "fa-brands fa-linkedin-in",
-        "url": "https://www.linkedin.com/in/sspensieri/"
-      },
-      {
-        "name": "Docsity",
+        "name": "Netsurf",
         "logo": "fa-globe",
-        "url": "https://www.docsity.com"
+        "url": "https://www.netsurf.it/"
       }
     ],
     "skills": [
       {
         "name": "Javascript",
-        "level": "5"
+        "level": "4.5"
       },
       {
         "name": "HMTL",
-        "level": "4"
-      },
-      {
-        "name": "css",
         "level": "3.5"
       },
       {
-        "name": "English",
+        "name": "css",
         "level": "3"
       },
       {
+        "name": "English",
+        "level": "1"
+      },
+      {
         "name": "Git",
-        "level": "2"
+        "level": "4"
       },
       {
         "name": "React",
@@ -247,16 +242,19 @@
       },
       {
         "name": "Java",
-        "level": "1"
+        "level": "4"
       },
       {
         "name": "PHP",
-        "level": "1"
+        "level": "3.5"
       }
     ],
     "favourites": {
-      "movie": { "name": "The Godfather - Part II", "icon": "fa-movie" },
-      "something": { "name": "something nice", "icon": "fa-note" }
+      "movie": { "name": "L'impero colpisce ancora", "icon": "fa-movie" },
+      "book": {
+        "name": "Guida Galattica per Autostoppisti",
+        "icon": "fa-book"
+      }
     }
   },
   {
