@@ -330,22 +330,22 @@
   },
   {
     "id": "andrea_besso",
-    "name": "Dummy",
-    "lastname": "Test",
+    "name": "Andrea",
+    "lastname": "Besso",
     "avatar": "empty_avatar.jpeg",
-    "jobPosition": "Your Position",
-    "company": "Your Company",
-    "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
+    "jobPosition": "Junior Developer",
+    "company": "NetSurf",
+    "description": "Mi piace dipingere acquerelli e andare in biciletta. Ho iniziato a programmare da un annetto in php e ho iniziato ora a usare React",
     "links": [
       {
         "name": "Github",
         "logo": "fa-brands fa-github",
-        "url": "https://github.com/spensieri-s"
+        "url": "https://github.com/andreabesso"
       },
       {
         "name": "Linkedin",
         "logo": "fa-brands fa-linkedin-in",
-        "url": "https://www.linkedin.com/in/sspensieri/"
+        "url": "https://www.linkedin.com/in/andreabesso"
       },
       {
         "name": "Docsity",
@@ -356,15 +356,15 @@
     "skills": [
       {
         "name": "Javascript",
-        "level": "5"
+        "level": "2"
       },
       {
         "name": "HMTL",
-        "level": "4"
+        "level": "5"
       },
       {
         "name": "css",
-        "level": "3.5"
+        "level": "3"
       },
       {
         "name": "English",
@@ -380,16 +380,16 @@
       },
       {
         "name": "Java",
-        "level": "1"
+        "level": "3"
       },
       {
         "name": "PHP",
-        "level": "1"
+        "level": "3"
       }
     ],
     "favourites": {
-      "movie": { "name": "The Godfather - Part II", "icon": "fa-movie" },
-      "something": { "name": "something nice", "icon": "fa-note" }
+      "movie": { "name": "Inseption", "icon": "fa-movie" },
+      "something": { "name": "ciao!", "icon": "fa-note" }
     }
   },
   {
