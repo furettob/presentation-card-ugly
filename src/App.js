@@ -25,7 +25,26 @@ export default function App() {
     return (
         <div className="App">
             <h1>Let's get to know each other (ugly version v4)</h1>
-            <h2>We can build a card to present ourselves</h2>
+
+
+            <Area title={"Our team"}>
+                <p>
+                Il nostro team giovane e dinamico è composto da: {"       "}
+                {
+                    data.map( (elem, index, arr) => {
+                        return <span key={elem.id}>{elem.name}{
+                            index < arr.length - 1 ? index === arr.length -2 ? " e " : "," : "."
+                        } </span>
+                    })
+                }
+                </p>
+                <p>
+                    Questi professionisti hanno lavorato su più di {
+
+                } progetti
+                </p>
+            </Area>
+
             {/* example of imperative approach <CardContainer />*/}
             <Area title={"Overall skills"}>
                 {Array.from(skillSet).map((skill, index) => {
