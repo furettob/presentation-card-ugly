@@ -80,6 +80,8 @@
     "email": "fabiana.vineis@netsurf.it",
     "jobPosition": "Your Position",
     "company": "Netsurf",
+    "shippedProject": 3,
+    "busy": "true",
     "description": "Lavoro in Netsurf da più di 10 anni e mi piace affrontare nuove sfide in ambiente lavorativo.",
     "links": [
       {
@@ -96,35 +98,43 @@
     "skills": [
       {
         "name": "Javascript",
-        "level": "3"
+        "level": 3
       },
       {
         "name": "HMTL",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "css",
-        "level": "3.5"
+        "level": 3.5
       },
       {
         "name": "English",
-        "level": "2"
+        "level": 2
       },
       {
         "name": "Git",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "React",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Java",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "PHP",
-        "level": "4"
+        "level": 4
+      },
+      {
+        "name": "Bike",
+        "level": 2
+      },
+      {
+        "name": "cooked",
+        "level": 4
       }
     ],
     "favourites": {
