@@ -158,43 +158,43 @@
     "skills": [
       {
         "name": "Javascript",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "HMTL",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "css",
-        "level": "3"
+        "level": 3
       },
       {
         "name": "English",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "Git",
-        "level": "3"
+        "level": 3
       },
       {
         "name": "React",
-        "level": "2"
+        "level": 2
       },
       {
         "name": "PHP-Symfony",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "PHP",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "Pallavolo",
-        "level": "5"
+        "level": 5
       },
       {
         "name": "calciobalilla",
-        "level": "2"
+        "level": 2
       }
     ],
     "favourites": {
