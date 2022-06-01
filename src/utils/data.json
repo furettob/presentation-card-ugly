@@ -138,6 +138,8 @@
     "jobPosition": "Web System Developer",
     "company": "Netsurf",
     "description": "I am a biomedical engineer and I have been dealing with php programming for 5 years",
+    "shippedProjects": "8",
+    "busy": true,
     "links": [
       {
         "name": "Linkedin",
@@ -153,35 +155,43 @@
     "skills": [
       {
         "name": "Javascript",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "HMTL",
-        "level": "4"
+        "level": 4
       },
       {
-        "name": "Css",
-        "level": "3"
+        "name": "css",
+        "level": 3
       },
       {
         "name": "English",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "Git",
-        "level": "3"
+        "level": 3
       },
       {
         "name": "React",
-        "level": "2"
+        "level": 2
       },
       {
         "name": "PHP-Symfony",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "PHP",
-        "level": "4"
+        "level": 4
+      },
+      {
+        "name": "Pallavolo",
+        "level": 5
+      },
+      {
+        "name": "calciobalilla",
+        "level": 2
       }
     ],
     "favourites": {
@@ -374,47 +384,47 @@
     "skills": [
       {
         "name": "Javascript",
-        "level": "2"
+        "level": 2
       },
       {
         "name": "HMTL",
-        "level": "5"
+        "level": 5
       },
       {
         "name": "css",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "English",
-        "level": "3"
+        "level": 3
       },
       {
         "name": "Git",
-        "level": "2"
+        "level": 2
       },
       {
         "name": "React",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Java",
-        "level": "3"
+        "level": 3
       },
       {
         "name": "PHP",
-        "level": "3.5"
+        "level": 3.5
       },
       {
         "name": "Ciclismo",
-        "level": "1.5"
+        "level": 1.5
       },
       {
         "name": "Nuoto",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "Calciobalilla",
-        "level": "5"
+        "level": 5
       }
     ],
     "favourites": {
