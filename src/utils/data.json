@@ -246,6 +246,18 @@
       {
         "name": "PHP",
         "level": "3.5"
+      },
+      {
+        "name": "C++",
+        "level": "3"
+      },
+      {
+        "name": "Docker",
+        "level": "4"
+      },
+      {
+        "name": "Aikido",
+        "level": "4.5"
       }
     ],
     "favourites": {
@@ -371,7 +383,7 @@
       },
       {
         "name": "css",
-        "level": "3"
+        "level": "4"
       },
       {
         "name": "English",
@@ -391,12 +403,24 @@
       },
       {
         "name": "PHP",
-        "level": "3"
+        "level": "3.5"
+      },
+      {
+        "name": "Ciclismo",
+        "level": "1.5"
+      },
+      {
+        "name": "Nuoto",
+        "level": "4"
+      },
+      {
+        "name": "Calciobalilla",
+        "level": "5"
       }
     ],
     "favourites": {
-      "movie": { "name": "Inseption", "icon": "fa-movie" },
-      "something": { "name": "ciao!", "icon": "fa-note" }
+      "movie": { "name": "Inseption", "icon": "fa-television" },
+      "something": { "name": "Lasagna", "icon": "fa-pizza-slice" }
     }
   },
   {
