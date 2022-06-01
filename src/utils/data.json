@@ -201,6 +201,8 @@
     "email": "marco.gaddo@netsurf.it",
     "jobPosition": "Developer",
     "company": "Netsurf",
+    "shippedProject": 6,
+    "busy": true,
     "description": "Sono uno sviluppatore con oltre 10 anni di esperienza. Per più di 10 anni ho sviluppato strutture monolitiche in Java e JavaScript, per poi passare alle REST API in Java e client in AngularJs e Angular 8. Ultimamente sviluppo prevalentemente in PHP ma spesso mi capita di fare qualche piccolo lavoro anche in C, C++, python, Java.",
     "links": [
       {
@@ -217,47 +219,47 @@
     "skills": [
       {
         "name": "Javascript",
-        "level": "4.5"
+        "level": 4.5
       },
       {
         "name": "HMTL",
-        "level": "3.5"
+        "level": 3.5
       },
       {
         "name": "css",
-        "level": "3"
+        "level": 3
       },
       {
         "name": "English",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Git",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "React",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Java",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "PHP",
-        "level": "3.5"
+        "level": 3.5
       },
       {
         "name": "C++",
-        "level": "3"
+        "level": 3
       },
       {
         "name": "Docker",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "Aikido",
-        "level": "4.5"
+        "level": 4.5
       }
     ],
     "favourites": {
