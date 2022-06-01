@@ -363,6 +363,8 @@
     "email": "andrea.besso@netsurf.it",
     "jobPosition": "Junior Developer",
     "company": "NetSurf",
+    "shippedProject": 3,
+    "busy": false,
     "description": "Mi piace dipingere acquerelli e andare in biciletta. Ho iniziato a programmare da un annetto in php e ho iniziato ora a usare React",
     "links": [
       {
