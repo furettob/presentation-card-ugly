@@ -363,47 +363,47 @@
     "skills": [
       {
         "name": "Javascript",
-        "level": "2"
+        "level": 2
       },
       {
         "name": "HMTL",
-        "level": "5"
+        "level": 5
       },
       {
         "name": "css",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "English",
-        "level": "3"
+        "level": 3
       },
       {
         "name": "Git",
-        "level": "2"
+        "level": 2
       },
       {
         "name": "React",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Java",
-        "level": "3"
+        "level": 3
       },
       {
         "name": "PHP",
-        "level": "3.5"
+        "level": 3.5
       },
       {
         "name": "Ciclismo",
-        "level": "1.5"
+        "level": 1.5
       },
       {
         "name": "Nuoto",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "Calciobalilla",
-        "level": "5"
+        "level": 5
       }
     ],
     "favourites": {
