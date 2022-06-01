@@ -141,6 +141,8 @@
     "jobPosition": "Web System Developer",
     "company": "Netsurf",
     "description": "I am a biomedical engineer and I have been dealing with php programming for 5 years",
+    "shippedProjects": "8",
+    "busy": true,
     "links": [
       {
         "name": "Linkedin",
