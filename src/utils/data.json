@@ -407,6 +407,8 @@
     "email": "alessandro.baruzzi@netsurf.it",
     "jobPosition": "Programmatore",
     "company": "Netsurf",
+    "shippedProject": 1,
+    "busy": false,
     "description": "I am a father and a a husband, a guitar player and composer, a trailbuilder, a knifemaker, a woodworker and a lumberjack... oh, and I happen to write code for a living as well.",
     "links": [
       {
@@ -422,11 +424,11 @@
       },
       {
         "name": "HMTL",
-        "level": "4"
+        "level": "3"
       },
       {
         "name": "css",
-        "level": "3.5"
+        "level": "1.5"
       },
       {
         "name": "English",
@@ -441,12 +443,20 @@
         "level": "1"
       },
       {
-        "name": "Java",
-        "level": "1"
-      },
-      {
         "name": "PHP",
         "level": "4"
+      },
+      {
+        "name": "Guitar Player",
+        "level": "4"
+      },
+      {
+        "name": "Woodworking",
+        "level": "3"
+      },
+      {
+        "name": "Chess Player",
+        "level": "2"
       }
     ],
     "favourites": {
