@@ -40,7 +40,33 @@ export default function App() {
                 })}
             </Area>
             <div className="pc-card-container">
-                {data.map((elem, index) => {
+                {
+                    data.filter((elem, index) => { 
+                    var isEmph = false;
+
+                    for (let i in elem.skills) {
+                        if (elem.skills[i].name === selectedSkill) {
+                            isEmph = true
+                        }
+                    }
+
+                    return isEmph
+                } ).map((elem, index) => {
+                    return <Card key={elem.id} elem={elem} selectedSkill={selectedSkill}/>;
+                })}
+                
+                {
+                    data.filter((elem, index) => { 
+                    var isEmph = false;
+
+                    for (let i in elem.skills) {
+                        if (elem.skills[i].name === selectedSkill) {
+                            isEmph = true
+                        }
+                    }
+
+                    return !isEmph
+                } ).map((elem, index) => {
                     return <Card key={elem.id} elem={elem} selectedSkill={selectedSkill}/>;
                 })}
             </div>
