@@ -284,6 +284,8 @@
     "avatar": "empty_avatar.jpeg",
     "jobPosition": "Backend developer",
     "company": "Net Surfing srl",
+    "shippedProject": 3,
+    "busy": true,
     "description": "???",
     "email": "maria.bugniduch@netsurf.it",
     
@@ -307,43 +309,51 @@
     "skills": [
       {
         "name": "T-sql",
-        "level": "4.5"
+        "level": 4.5
       },
       {
         "name": "PL-sql",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "Java",
-        "level": "3,5"
+        "level": 3.5
       },
       {
         "name": "Javascript",
-        "level": "3"
+        "level": 3
       },
       {
         "name": "HMTL",
-        "level": "3"
+        "level": 3
       },
       {
-        "name": "Css",
-        "level": "1"
+        "name": "css",
+        "level": 1
       },
       {
         "name": "English",
-        "level": "3"
+        "level": 3
       },
       {
         "name": "Git",
-        "level": "2"
+        "level": 2
       },
       {
         "name": "React",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "PHP",
-        "level": "2"
+        "level": 2
+      },
+      {
+        "name": "Compilare skill",
+        "level": 0
+      },
+      {
+        "name": "Collezionare giochi Steam",
+        "level": 4.5
       }
      
     ],
@@ -369,6 +379,8 @@
     "email": "andrea.besso@netsurf.it",
     "jobPosition": "Junior Developer",
     "company": "NetSurf",
+    "shippedProject": 3,
+    "busy": false,
     "description": "Mi piace dipingere acquerelli e andare in biciletta. Ho iniziato a programmare da un annetto in php e ho iniziato ora a usare React",
     "links": [
       {
