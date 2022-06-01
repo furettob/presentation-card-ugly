@@ -198,6 +198,8 @@
     "email": "marco.gaddo@netsurf.it",
     "jobPosition": "Developer",
     "company": "Netsurf",
+    "shippedProject": 6,
+    "busy": true,
     "description": "Sono uno sviluppatore con oltre 10 anni di esperienza. Per più di 10 anni ho sviluppato strutture monolitiche in Java e JavaScript, per poi passare alle REST API in Java e client in AngularJs e Angular 8. Ultimamente sviluppo prevalentemente in PHP ma spesso mi capita di fare qualche piccolo lavoro anche in C, C++, python, Java.",
     "links": [
       {
@@ -214,35 +216,47 @@
     "skills": [
       {
         "name": "Javascript",
-        "level": "4.5"
+        "level": 4.5
       },
       {
         "name": "HMTL",
-        "level": "3.5"
+        "level": 3.5
       },
       {
-        "name": "Css",
-        "level": "3"
+        "name": "css",
+        "level": 3
       },
       {
         "name": "English",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Git",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "React",
-        "level": "1"
+        "level": 1
       },
       {
         "name": "Java",
-        "level": "4"
+        "level": 4
       },
       {
         "name": "PHP",
-        "level": "3.5"
+        "level": 3.5
+      },
+      {
+        "name": "C++",
+        "level": 3
+      },
+      {
+        "name": "Docker",
+        "level": 4
+      },
+      {
+        "name": "Aikido",
+        "level": 4.5
       }
     ],
     "favourites": {
@@ -340,7 +354,7 @@
     "id": "andrea_besso",
     "name": "Andrea",
     "lastname": "Besso",
-    "avatar": "empty_avatar.jpeg",
+    "avatar": "andrea_avatar.jpeg",
     "email": "andrea.besso@netsurf.it",
     "jobPosition": "Junior Developer",
     "company": "NetSurf",
@@ -355,11 +369,6 @@
         "name": "Linkedin",
         "logo": "fa-brands fa-linkedin-in",
         "url": "https://www.linkedin.com/in/andreabesso"
-      },
-      {
-        "name": "Docsity",
-        "logo": "fa-globe",
-        "url": "https://www.docsity.com"
       }
     ],
     "skills": [
@@ -372,8 +381,8 @@
         "level": "5"
       },
       {
-        "name": "Css",
-        "level": "3"
+        "name": "css",
+        "level": "4"
       },
       {
         "name": "English",
@@ -393,12 +402,24 @@
       },
       {
         "name": "PHP",
-        "level": "3"
+        "level": "3.5"
+      },
+      {
+        "name": "Ciclismo",
+        "level": "1.5"
+      },
+      {
+        "name": "Nuoto",
+        "level": "4"
+      },
+      {
+        "name": "Calciobalilla",
+        "level": "5"
       }
     ],
     "favourites": {
-      "movie": { "name": "Inseption", "icon": "fa-movie" },
-      "something": { "name": "ciao!", "icon": "fa-note" }
+      "movie": { "name": "Inseption", "icon": "fa-television" },
+      "something": { "name": "Lasagna", "icon": "fa-pizza-slice" }
     }
   },
   {
@@ -409,6 +430,8 @@
     "email": "alessandro.baruzzi@netsurf.it",
     "jobPosition": "Programmatore",
     "company": "Netsurf",
+    "shippedProject": 1,
+    "busy": false,
     "description": "I am a father and a a husband, a guitar player and composer, a trailbuilder, a knifemaker, a woodworker and a lumberjack... oh, and I happen to write code for a living as well.",
     "links": [
       {
@@ -424,11 +447,11 @@
       },
       {
         "name": "HMTL",
-        "level": "4"
+        "level": "3"
       },
       {
-        "name": "Css",
-        "level": "3.5"
+        "name": "css",
+        "level": "1.5"
       },
       {
         "name": "English",
@@ -443,12 +466,20 @@
         "level": "1"
       },
       {
-        "name": "Java",
-        "level": "1"
-      },
-      {
         "name": "PHP",
         "level": "4"
+      },
+      {
+        "name": "Guitar Player",
+        "level": "4"
+      },
+      {
+        "name": "Woodworking",
+        "level": "3"
+      },
+      {
+        "name": "Chess Player",
+        "level": "2"
       }
     ],
     "favourites": {
