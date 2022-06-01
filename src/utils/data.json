@@ -246,6 +246,18 @@
       {
         "name": "PHP",
         "level": "3.5"
+      },
+      {
+        "name": "C++",
+        "level": "3"
+      },
+      {
+        "name": "Docker",
+        "level": "4"
+      },
+      {
+        "name": "Aikido",
+        "level": "4.5"
       }
     ],
     "favourites": {
