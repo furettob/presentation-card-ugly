@@ -343,7 +343,7 @@
     "id": "andrea_besso",
     "name": "Andrea",
     "lastname": "Besso",
-    "avatar": "empty_avatar.jpeg",
+    "avatar": "andrea_avatar.jpeg",
     "email": "andrea.besso@netsurf.it",
     "jobPosition": "Junior Developer",
     "company": "NetSurf",
@@ -358,11 +358,6 @@
         "name": "Linkedin",
         "logo": "fa-brands fa-linkedin-in",
         "url": "https://www.linkedin.com/in/andreabesso"
-      },
-      {
-        "name": "Docsity",
-        "logo": "fa-globe",
-        "url": "https://www.docsity.com"
       }
     ],
     "skills": [
