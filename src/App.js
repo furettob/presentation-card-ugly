@@ -1,16 +1,37 @@
 import "./styles.css";
-import CardContainer from "./components/CardContainer";
 import Card from "./components/Card";
-import data from "./utils/data.json";
+import initialData from "./utils/data.json";
 import Area from "./components/Area";
-import TagClass from "./components/TagClass";
+import CardClassForm from "./components/CardClassForm";
+import CardFunctionalForm from "./components/CardFunctionalForm";
+import CardFormikForm from "./components/CardFormikForm";
+import {getLocalStorageData} from "./utils/storage";
 
 import {useState} from "react"
 import TagFunction from "./components/TagFunction";
 
 export default function App() {
+    const mixData = () => {
+        let newData = initialData
+        const localStorageData = getLocalStorageData()
+        for (const id in localStorageData) {
+            const i = newData.findIndex( item => item.id === id)
+            if (i > -1) {
+                newData[i] = {...newData[i], ...localStorageData[id]}
+            }
+        }
+        return newData
+    }
+
+    let [data, setData] = useState(mixData())
+
+    const dataUpdateCallback = () => {
+        const d = mixData()
+        setData([...d])
+    }
+
     const skillArray = data.reduce((prevSkills, currElem) => prevSkills.concat(currElem.skills.map(
-        (skill, index) => skill.name
+        skill => skill.name
     )), [])
 
     const [selectedSkill, setSelectedSkill] = useState(null)
@@ -18,14 +39,12 @@ export default function App() {
     const skillSet = new Set(skillArray)
 
     const callbackSelectedSkill = (name) => {
-        console.log("App says: you click on ", name)
         setSelectedSkill(name)
     }
 
     return (
         <div className="App">
             <h1>Let's get to know each other (ugly version v4)</h1>
-
 
             <Area title={"Our team"}>
                 <p>
@@ -39,9 +58,14 @@ export default function App() {
                 }
                 </p>
                 <p>
-                    Questi professionisti hanno lavorato su più di {
-
-                } progetti
+                    Questi professionisti hanno lavorato insieme su più di {
+                        data.reduce(
+                            (prevElem, currElem) => {
+                                return prevElem + currElem.shippedProject
+                            },
+                            0
+                        )
+                } progetti.
                 </p>
             </Area>
 
@@ -58,9 +82,14 @@ export default function App() {
                     />
                 })}
             </Area>
+
+            <Area title={"Modifica info"}>
+            </Area>
+
+            <Area title={"Cards"}>
             <div className="pc-card-container">
                 {
-                    data.filter((elem, index) => { 
+                    data.filter(elem => {
                     var isEmph = false;
 
                     for (let i in elem.skills) {
@@ -70,12 +99,16 @@ export default function App() {
                     }
 
                     return isEmph
-                } ).map((elem, index) => {
+                } ).sort(
+                        (elem1, elem2) => {
+                            const x = (elem2.shippedProject || 0) - (elem1.shippedProject || 0)
+                            return x}
+                    ).map((elem) => {
                     return <Card key={elem.id} elem={elem} selectedSkill={selectedSkill}/>;
                 })}
                 
                 {
-                    data.filter((elem, index) => { 
+                    data.filter((elem) => {
                     var isEmph = false;
 
                     for (let i in elem.skills) {
@@ -85,14 +118,11 @@ export default function App() {
                     }
 
                     return !isEmph
-                } ).map((elem, index) => {
+                } ).map(elem => {
                     return <Card key={elem.id} elem={elem} selectedSkill={selectedSkill}/>;
                 })}
             </div>
+            </Area>
         </div>
     );
 }
-
-for (var index in data) {
-    //console.log(data[index]);
-} 
