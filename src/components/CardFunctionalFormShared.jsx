@@ -1,8 +1,8 @@
-import React, {useState} from "react"
+import {useState} from "react"
 import {getLocalStorageData, setLocalStorageItem} from "../utils/storage";
 
-const CardFunctionalForm = ({callback}) => {
-    const initialState = {description:"", skill:"",name:"stefano",lastname:"spensieri"}
+function CardFunctionalForm({callback}) {
+    const initialState = {description:"", skill:"",name:"",lastname:""}
 
     const [name, setName] = useState(initialState.name)
     const [lastname, setLastname] = useState(initialState.lastname)
@@ -25,17 +25,16 @@ const CardFunctionalForm = ({callback}) => {
     const handleSubmit = async event => {
         event.preventDefault();
         console.log("Local storage data: ", getLocalStorageData())
-        console.log('State on submission: ', {name, lastname, description, skill});
         setLocalStorageItem(name + "_" + lastname, {
             name:name,
             lastname:lastname,
             skill:skill,
             description: description
         })
-        callback && callback()
+        callback && typeof callback === "function" && callback()
     }
 
-    return (
+     return (
             <form onSubmit={handleSubmit}>
                 <div>
                     <label>
@@ -57,7 +56,7 @@ const CardFunctionalForm = ({callback}) => {
                 </label>
                 <input type="submit" value="Submit" />
             </form>
-        );
+        )
 }
 
 export default CardFunctionalForm

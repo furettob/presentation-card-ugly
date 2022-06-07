@@ -10,10 +10,14 @@ class CardClassFormShared extends Component {
         this.state = this.initialState
 
         this.handleDescriptionChange = this.handleDescriptionCallback.bind(this)
+        this.handleNameChange = this.handleNameCallback.bind(this)
     }
 
     handleDescriptionCallback = event => {
         this.setState( (prevState) => {return {...prevState, description: event.target.value}});
+    }
+    handleNameCallback = event => {
+        this.setState( (prevState) => {return {...prevState, name: event.target.value}});
     }
 
     handleSubmit = async event => {
@@ -30,6 +34,7 @@ class CardClassFormShared extends Component {
 
     render() {
         return <form>
+            <input id={"pc-name"} placeholder={"Nome..."} value={this.state.name} onChange={this.handleNameChange}/>
             <textarea id={"pc-description"} placeholder={"Inserisci una nuova descrizione"} value={this.state.description} onChange={this.handleDescriptionChange}/>
             <input type="submit" value="Submit" />
         </form>
