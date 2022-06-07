@@ -5,6 +5,7 @@ import Area from "./components/Area";
 import CardClassForm from "./components/CardClassForm";
 import CardFunctionalForm from "./components/CardFunctionalForm";
 import CardFormikForm from "./components/CardFormikForm";
+import CardClassFormShared from "./components/CardClassFormShared"
 import {getLocalStorageData} from "./utils/storage";
 
 import {useState} from "react"
@@ -84,6 +85,8 @@ export default function App() {
             </Area>
 
             <Area title={"Modifica info"}>
+                {/*<CardClassForm callback={dataUpdateCallback}/>*/}
+                <CardClassFormShared callback={dataUpdateCallback}/>
             </Area>
 
             <Area title={"Cards"}>
