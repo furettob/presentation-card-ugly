@@ -34,6 +34,7 @@ class Card extends Component {
               avatar={this.props.elem.avatar}
               jobPosition={this.props.elem.jobPosition}
               company={this.props.elem.company}
+              shippedProject={this.props.elem.shippedProject}
               isEmph={this.getEmph()}
           />
 

@@ -7,6 +7,8 @@
     "email": "stefano.spensieri@gmail.com",
     "jobPosition": "Frontend developer",
     "company": "Docsity - Freelance",
+    "shippedProject": 4,
+    "busy": false,
     "description": "I’m a mathematician and a web developer with +10 years experience. I’m a front-end enthusiast, passionate about conveying a great user experience and implementing smart client-side logic. I’m eager to work where aesthetic and logic meet.",
     "links": [
       {
@@ -77,6 +79,8 @@
     "email": "fabiana.vineis@netsurf.it",
     "jobPosition": "Your Position",
     "company": "Netsurf",
+    "shippedProject": 7,
+    "busy": true,
     "description": "Lavoro in Netsurf da più di 10 anni e mi piace affrontare nuove sfide in ambiente lavorativo.",
     "links": [
       {
@@ -138,7 +142,7 @@
     "jobPosition": "Web System Developer",
     "company": "Netsurf",
     "description": "I am a biomedical engineer and I have been dealing with php programming for 5 years",
-    "shippedProject": "8",
+    "shippedProject": 8,
     "busy": true,
     "links": [
       {
