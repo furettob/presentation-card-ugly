@@ -7,6 +7,8 @@ import TagClass from "./components/TagClass";
 
 import {useState} from "react"
 import TagFunction from "./components/TagFunction";
+import TagFilter from "./components/TagFilter";
+
 
 export default function App() {
     const skillArray = data.reduce((prevSkills, currElem) => prevSkills.concat(currElem.skills.map(
@@ -14,13 +16,20 @@ export default function App() {
     )), [])
 
     const [selectedSkill, setSelectedSkill] = useState(null)
-
     const skillSet = new Set(skillArray)
+
+    const [selectedFilter, setSelectedFilter] = useState(null)
 
     const callbackSelectedSkill = (name) => {
         console.log("App says: you click on ", name)
         setSelectedSkill(name)
     }
+
+    const callbackSelectedFilter = (filterName) => {
+        console.log("App says: you click on ", filterName)
+        setSelectedFilter(filterName)
+    }
+
 
     return (
         <div className="App">
@@ -39,6 +48,13 @@ export default function App() {
                     />
                 })}
             </Area>
+
+            <Area title={"Show"}>
+                   <TagFilter selected={0 === selectedFilter || null === selectedFilter} clickCallback={ (filterName) => { callbackSelectedFilter(filterName) }} value={0} size={"big"} icon="fa-search" filterName = {'Show All'}/>
+                   <TagFilter selected={1 === selectedFilter} clickCallback={ (filterName) => { callbackSelectedFilter(filterName) }} value={1} size={"big"} icon="fa-search" filterName = {'Show Competent'}/>
+                   <TagFilter selected={2 === selectedFilter} clickCallback={ (filterName) => { callbackSelectedFilter(filterName) }} value={2} size={"big"} icon="fa-search" filterName = {'Show Others'}/>
+            </Area>
+
             <div className="pc-card-container">
                 {
                     data.filter((elem, index) => { 
@@ -52,9 +68,13 @@ export default function App() {
 
                     return isEmph
                 } ).map((elem, index) => {
-                    return <Card key={elem.id} elem={elem} selectedSkill={selectedSkill}/>;
-                })}
+                    if(selectedFilter != 2){
+                        return <Card key={elem.id} elem={elem} selectedSkill={selectedSkill}/>;
+                    }
+               })
                 
+                }
+                        
                 {
                     data.filter((elem, index) => { 
                     var isEmph = false;
@@ -67,7 +87,9 @@ export default function App() {
 
                     return !isEmph
                 } ).map((elem, index) => {
-                    return <Card key={elem.id} elem={elem} selectedSkill={selectedSkill}/>;
+                    if(selectedFilter != 1){
+                        return <Card key={elem.id} elem={elem} selectedSkill={selectedSkill}/>;
+                    }
                 })}
             </div>
         </div>

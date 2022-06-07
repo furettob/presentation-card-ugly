@@ -6,11 +6,12 @@ export default function Header({
                                  avatar,
                                  jobPosition,
                                  company,
-                                 isEmph
+                                 isEmph,
+                                 color
                                }) {
   return (
       <>
-        <div className={isEmph ? "pc-header pc-header--emph" : "pc-header"}>
+        <div className={isEmph ? "pc-header pc-header--" + color : "pc-header"}>
           <div>
             <h3 className="pc-title">
               {lastname} {name}

@@ -122,6 +122,32 @@ h4 {
 .pc-header--emph {
   background-color: #0a3; /*#011B30;*/
 }
+
+.pc-header--5 {
+  background-color: rgb(9, 160, 29); /*#011B30;*/
+}
+
+.pc-header--4 {
+  background-color: rgb(164, 216, 21); /*#011B30;*/
+}
+
+.pc-header--3 {
+  background-color: rgb(250, 246, 2); /*#011B30;*/
+}
+
+.pc-header--2 {
+  background-color: rgb(250, 164, 4); /*#011B30;*/
+}
+
+.pc-header--1 {
+  background-color: rgb(255, 5, 5); /*#011B30;*/
+}
+
+.pc-header--0 {
+  background-color: #0477d2;; /*#011B30;*/
+}
+
+
 .pc-title {
   font-family: "pm";
   font-size: 32px;
